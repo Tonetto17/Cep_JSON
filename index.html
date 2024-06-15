@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>CEP</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size:30px;
+            text-align:center;
+        }
+        .btn{
+            background-color:rgba(49, 44, 44, 0.706);
+        }
+        .inp{
+            width: 150px;
+            height: 20px;
+        }
+        .pa{
+            font-size: 20px;
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <h1>CEP-JSON</h1>
+    
+    <input type="text" placeholder="Digite seu cep" class="inp" id="cept">
+    <button class="btn" onclick="enviar()">Enviar</button>
+    <p id="inf">Por favor digite seu cep no campo:</p>
+    <p id="teste" class="pa"></p>
+    <p id="infex"></p>
+    <p id="objinf" class="pa"></p>
+</body>
+<script src="script.js"></script>
+</html>
